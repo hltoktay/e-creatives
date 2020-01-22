@@ -21,13 +21,13 @@
   );
 }
 .heading {
-  margin: 2rem 10rem;
+  margin: 4rem 10rem;
   font-weight: 500;
   color: #006064;
 }
 .subheading {
   margin: 1.2rem 10rem;
-  color: #a2b4b3;
+  color: #2c3333;
 }
 .btn.btn-margin {
   margin-left: 10rem;

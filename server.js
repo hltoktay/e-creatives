@@ -18,15 +18,15 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Home Page" });
 });
 
-// Routing about
-// app.get("/about", (req, res) => {
-//   res.render("about", { title: "About Company" });
-// });
+// Routing Terms
+app.get("/terms", (req, res) => {
+  res.render("terms", { title: "Terms of Service" });
+});
 
 // Routing service
-// app.get("/service", (req, res) => {
-//   res.render("service", { title: "What we offer" });
-// });
+app.get("/privacy", (req, res) => {
+  res.render("privacy", { title: "Privacy Policy" });
+});
 
 app.listen(8080, () => {
   console.log("Server is running at port ", 8080);
