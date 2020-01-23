@@ -252,3 +252,31 @@ button.close {
   padding-right: 1rem;
   padding-top: 0.6rem;
 }
+
+.rgba-gradient {
+  height: 100vh;
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(0, 96, 100, 0.6),
+    rgba(178, 223, 219, 0.69) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(0, 96, 100, 0.6),
+    rgba(178, 223, 219, 0.69) 100%
+  );
+  background: linear-gradient(
+    to 45deg,
+    rgba(0, 96, 100, 0.6),
+    rgba(178, 223, 219, 0.69) 100%
+  );
+}
+
+/* .footer-term {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+} */

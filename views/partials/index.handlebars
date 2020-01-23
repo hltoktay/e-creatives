@@ -5,7 +5,14 @@
 
     <div class="col-md-6">
 
+
         <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            {{!-- {{#if msg}}
+            <div class="btn btn-default btn-sm"> {{msg}}</div>
+
+            {{/if}} --}}
+
+
 
             <h2 class="heading">The best agency for your business!</h2>
             <h5 class="subheading">
@@ -14,7 +21,10 @@
             <div class="mr-auto">
                 <a href="../partials/model_contact.handlebars" data-toggle="modal" data-target="#modalContactForm"
                     class="btn btn-lg btn-lily btn-margin">Contact Now <i class="fas fa-caret-right ml-3"></i></a>
+
                 {{> model_contact}}
+
+
             </div>
 
 
@@ -35,6 +45,3 @@
     </div>
 
 </div>
-
-
-<!-- Intro -->
